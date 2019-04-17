@@ -1,2 +1,2 @@
-# android-opi
-Android for orange pi playground
+# android-opi Android manifest
+
