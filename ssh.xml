@@ -3,6 +3,8 @@
 
   <remote  name="devel-opi"
            fetch="ssh://git@github.com/devel-opi" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <remote  name="denx.de"
            fetch="http://git.denx.de/" />
 
@@ -11,5 +13,7 @@
   <project path="kernel/common" remote="aosp" name="kernel/common" revision="refs/tags/ASB-2019-04-05_4.19" />
   <project path="vendor/generic/uboot" remote="denx.de" name="u-boot.git" revision="refs/tags/v2019.04" />
   <project path="device/allwinner" remote="devel-opi" name="android-opi.git" revision="device" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro_arm-linux-gnueabihf" remote="github" name="android2orangepi-dev/ext-compiler.git" revision="master" />
 
 </manifest>
