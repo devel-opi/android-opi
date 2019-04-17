@@ -14,10 +14,10 @@
 
 $(call inherit-product, device/generic/armv7-a-neon/mini_common.mk)
 
-PRODUCT_NAME := mini_armv7a_neon
+PRODUCT_NAME := orange_pi_h3
 PRODUCT_DEVICE := armv7-a-neon
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Mini for armv7-a-neon
+PRODUCT_BRAND := Allwinner
+PRODUCT_MODEL := Orange PI H3 SOC
 
 # default is nosdcard, S/W button enabled in resource
 DEVICE_PACKAGE_OVERLAYS := device/generic/armv7-a-neon/overlay
