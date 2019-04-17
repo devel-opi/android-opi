@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="devel-opi"
+           fetch="ssh://git@github.com/devel-opi" />
+  <remote  name="denx.de"
+           fetch="http://git.denx.de/" />
+
+  <include name="aosp.xml" />
+
+  <project path="kernel/common" remote="aosp" name="kernel/common" revision="refs/tags/ASB-2019-04-05_4.19" />
+  <project path="vendor/generic/uboot" remote="denx.de" name="u-boot.git" revision="refs/tags/v2019.04" />
+  <project path="device/allwinner" remote="devel-opi" name="android-opi.git" revision="device" />
+
+</manifest>
