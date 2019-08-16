@@ -13,7 +13,7 @@
 
   <project path="external/uboot"    remote="denx.de"   name="u-boot.git"               revision="master" />
   <project path="external/mesa3d"   remote="rsgitlab"  name="mesa"                     revision="staging/android-q" />
-  <project path="external/gbm_gralloc" remote="github" name="robherring/gbm_gralloc"   revision="master" />
+  <project path="external/gbm_gralloc" remote="github" name="rsglobal/gbm_gralloc"     revision="fixes-pr" />
 
   <project path="kernel/allwinner"  remote="rsgithub"  name="linux"                    revision="staging/android-q" />
   <project path="device/allwinner"  remote="devel-opi" name="android_allwinner_bsp"    revision="master" />
